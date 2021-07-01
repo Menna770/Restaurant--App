@@ -10,19 +10,19 @@ class ShoppingCart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      closeClass: "order-done-box d-none"
+      closeClass: "order-done-box shadow d-none"
     }
   }
 
   openBox = (e) => {
     this.setState({
-      closeClass : "order-done-box d-flex"
+      closeClass : "order-done-box shadow d-flex"
     })
   }
 
   closeBox = (e) => {
     this.setState({
-      closeClass : "order-done-box d-none"
+      closeClass : "order-done-box shadow d-none"
     })
   }
 
